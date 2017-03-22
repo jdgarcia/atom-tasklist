@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tasklist",
+        "command": "tasklist:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tasklist",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "tasklist:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
